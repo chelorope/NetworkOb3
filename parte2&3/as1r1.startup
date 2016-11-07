@@ -1,2 +1,0 @@
-ifconfig eth0 100.0.0.1 netmask 255.240.0.0 broadcast 100.15.255.255 up
-ifconfig eth1 100.128.0.1 netmask 255.255.255.252 broadcast 100.128.0.3 up
