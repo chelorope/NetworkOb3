@@ -1,0 +1,4 @@
+ifconfig eth0 200.128.0.132 netmask 255.255.255.192 broadcast 200.128.0.191 up
+ifconfig eth0 hw ether 00:00:00:00:21:00
+
+route add default gw 200.128.0.129
