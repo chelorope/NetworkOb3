@@ -1,5 +1,5 @@
 ifconfig eth0 11.0.0.22 netmask 255.255.255.252 broadcast 11.0.0.23 up
 ifconfig eth1 11.0.0.14 netmask 255.255.255.252 broadcast 11.0.0.15 up
-ifconfig eth2 30.1.0.1 netmask 255.255.255.252 broadcast 30.1.255.255 up
+ifconfig eth2 30.1.0.1 netmask 255.255.0.0 broadcast 30.1.255.255 up
 
 route add -net 100.0.0.0 netmask 255.255.255.0 gw 11.0.0.13 dev eth1
