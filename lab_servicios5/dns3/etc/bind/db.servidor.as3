@@ -1,0 +1,4 @@
+$TTL  60000
+@   IN   SOA   dns3.server.as3.
+@   IN   NS   dns3.server.as3.
+www   IN   A   200.128.0.2
