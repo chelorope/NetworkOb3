@@ -1,2 +1,14 @@
-.                   IN  NS    ROOT-SERVER.
-ROOT-SERVER.        IN  A     200.128.0.3
+$TTL   60000
+@               IN      SOA     ROOT-SERVER.    root.ROOT-SERVER. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      ROOT-SERVER.
+ROOT-SERVER.	IN	A	200.128.0.3
+
+as3.		IN 	NS	dns3.as3.
+dns3.as3.	IN 	A	200.128.0.3
