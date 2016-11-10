@@ -1,0 +1,5 @@
+ifconfig eth0 200.128.0.3 up
+
+route add default gw 200.128.0.1 dev eth0
+
+/etc/init.d/bind start
