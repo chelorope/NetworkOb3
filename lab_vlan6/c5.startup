@@ -1,0 +1,3 @@
+/etc/init.d/networking start
+ip link set eth0 up
+ip route add default via 30.1.0.1
