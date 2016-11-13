@@ -1,5 +1,6 @@
 ifconfig eth0 200.128.0.252 netmask 255.255.255.248 broadcast 200.128.0.255 up
 ifconfig eth0 hw ether 00:00:00:00:10:00
+
 route add default gw 200.128.0.254
 
 /etc/init.d/apache2 start

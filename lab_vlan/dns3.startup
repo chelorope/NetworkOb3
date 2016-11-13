@@ -1,5 +1,6 @@
-ifconfig eth0 200.128.0.3 netmask 255.255.255.0 broadcast 200.128.0.255 up
+ifconfig eth0 200.128.0.250 netmask 255.255.255.248 broadcast 200.128.0.255 up
+ig eth0 hw ether 00:00:00:00:20:00
 
-route add default gw 200.128.0.1 dev eth0
+route add default gw 200.128.0.254
 
 /etc/init.d/bind start

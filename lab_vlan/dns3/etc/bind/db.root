@@ -8,7 +8,7 @@ $TTL   60000
                         )
 
 @               IN      NS      ROOT-SERVER.
-ROOT-SERVER.	IN	A	200.128.0.3
+ROOT-SERVER.	IN	A	200.128.0.250
 
 as3.		IN 	NS	dns3.as3.
-dns3.as3.	IN 	A	200.128.0.3
+dns3.as3.	IN 	A	200.128.0.250
