@@ -9,4 +9,4 @@ $TTL  60000
 @  	IN	NS	dns3.servidor.as3.
 dns3	IN	A	200.128.0.3
 
-www	IN	A	200.128.0.67
+www	IN	A	200.128.0.252
